@@ -1,9 +1,11 @@
+import sys
 import math
 
-with open('D:\inputTask2.1.txt', 'r') as f1:
+
+with open(str(sys.argv[1]), 'r') as f1:
     file1 = f1.read().split("\n")
 
-with open('D:\inputTask2.2.txt', 'r') as f2:
+with open(str(sys.argv[2]), 'r') as f2:
     lines2 = f2.read().splitlines()
 
 
